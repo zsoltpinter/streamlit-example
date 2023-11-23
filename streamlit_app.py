@@ -6,11 +6,11 @@ st.write("---")
 szam1 = st.number_input(label = "K&H")
 szam2 = st.number_input(label = "OTP Nemzeti Bank")
 
-st.write("Mit akarsz?")
+st.write("Lehetőségek")
 st.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
 
 ans = 0 
-def Calculate():
+def calculate():
   if Lehetőségek == "Osszeadas":
     ans = szam1 + szam2
   elif Lehetőségek == "Kivonas":
@@ -26,7 +26,7 @@ def Calculate():
   st.succes(f"Answer = {ans}")
 
 if st.button("Kalkulalas"):
-    Calculate()
+    calculate()
 
 
 
