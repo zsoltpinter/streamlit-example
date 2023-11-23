@@ -22,8 +22,8 @@ def calculate():
     elif operation=="Divide" and num2!=0:
         ans = num1 / num2
     else:
-        st.warning("Sillo Laurának nem tetszik ez.")
-        ans = "XDDDDD"
+        st.warning("Division by 0 error. Please enter a non-zero number.")
+        ans = "Not defined"
 
     st.success(f"Answer = {ans}")
     
