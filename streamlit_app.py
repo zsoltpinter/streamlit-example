@@ -23,7 +23,7 @@ def calculate():
     st.warning("Nem vehetsz fel semmit te barom!!44!4!!!!!4!")
     ans = "NoNo"
 
-st.succes(f"Tessek = {ans}")
+  st.succes(f"Tessek = {ans}")
 
 if st.button("Kalkulalas"):
   calculate()
