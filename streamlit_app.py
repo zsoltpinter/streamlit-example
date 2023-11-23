@@ -10,7 +10,7 @@ st.write("Mit akarsz?")
 st.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
 
 ans = 0 
-def calculate():
+def Calculate():
   if Lehetőségek == "Osszeadas":
     ans = szam1 + szam2
   elif Lehetőségek == "Kivonas":
