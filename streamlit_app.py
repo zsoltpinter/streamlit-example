@@ -4,11 +4,11 @@ st.title("Calculator App using Streamlit")
 
 st.write("---")
 
-num1 = st.number_input(lebal="Enter first number")
-num2 = st.number_input(lebal="Enter second number")
+num1 = st.number_input(label="Enter first number")
+num2 = st.number_input(label="Enter second number")
 st.write("Operation")
 
-operation = st.radio("Select an operation to perform:")
+operation = st.radio("Select an operation to perform:",("Összeadás", "Kivonás", "Szorzás", "Osztás"))
 
 
 
