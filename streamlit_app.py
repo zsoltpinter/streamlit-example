@@ -25,7 +25,7 @@ def calculate():
     st.warning("Nem jó, szép volt majd legközelebb.")
     ans = "XDDD"
 
-st.succes(f"Answer = {ans}")
+st.success(f"EREDMÉNY = {ans}")
     
 
 
