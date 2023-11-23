@@ -7,17 +7,17 @@ szam1 = st.number_input(label = "K&H")
 szam2 = st.number_input(label = "OTP Nemzeti Bank")
 
 st.write("Mit akarsz?")
-st.radio("Lehetőségek :",("Hitel", "KamatosKamat", "Kölcsön", "Pénz felvétel"))
+st.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
 
 ans = 0 
 def calculate():
-  if Lehetőségek == "Hitel":
+  if Lehetőségek == "Osszeadas":
     ans = szam1 + szam2
-  elif Lehetőségek == "KamatosKamat":
+  elif Lehetőségek == "Kivonas":
     ans = szam1 - szam2
-  elif Lehetőségek == "Kölcsön":
+  elif Lehetőségek == "Szorzas":
     ans = szam1 * szam2
-  elif Lehetőségek == "Pénz felvétel" and number2!=0:
+  elif Lehetőségek == "Osztas" and number2!=0:
     ans = szam1 / szam2
   else:
     st.warning("Nem vehetsz fel semmit te barom!!44!4!!!!!4!")
