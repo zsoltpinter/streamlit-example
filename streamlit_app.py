@@ -26,7 +26,8 @@ def calculate():
   st.succes(f"Answer = {ans}")
 
 if st.button("Kalkulalas"):
-  calculate()
+    calculate()
+
 
 
 
