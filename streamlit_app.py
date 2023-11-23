@@ -11,7 +11,6 @@ st.write("Operation")
 operation = st.radio("Select an operation to perform:",("Összeadás", "Kivonás", "Szorzás", "Osztás"))
 
 ans = 0
-
 def calculate():
   if operation == "Összeadás":
     ans = num1 + num2
