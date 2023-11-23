@@ -18,7 +18,7 @@ def calculate():
   elif Lehetőségek == "Kölcsön":
     ans = szam1 * szam2
   elif Lehetőségek == "Pénz felvétel" and number2!=0:
-    ans = szam1 : szam2
+    ans = szam1 / szam2
   else:
     st.warning("Nem vehetsz fel semmit te barom!!44!4!!!!!4!")
     ans = "NoNo"
