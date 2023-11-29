@@ -6,8 +6,8 @@ st.write("---")
 szam1 = st.number_input(label = "K&H")
 szam2 = st.number_input(label = "OTP Nemzeti Bank")
 
-st.write("lehetosegek")
-lehetosegek = st.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
+st.write("Lehetőségek")
+lehetosegek = st.radio("Lehetosegek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
 
 ans = 0 
 def calculate():
@@ -23,7 +23,7 @@ def calculate():
     st.warning("Nem vehetsz fel semmit te barom!!44!4!!!!!4!")
     ans = "NoNo"
 
-  st.succes(f"Answer = {ans}")
+  st.success(f"Answer = {ans}")
 
 if st.button("Kalkulalas"):
     calculate()
