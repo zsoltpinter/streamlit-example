@@ -1,13 +1,13 @@
 import streamlit as st
 
-st.title("Kalkulátor")
+st.title("kalkulátor")
 st.write("---")
 
 szam1 = st.number_input(label = "K&H")
 szam2 = st.number_input(label = "OTP Nemzeti Bank")
 
-st.write("Lehetőségek")
-lehetosegek = st.radio("Lehetosegek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
+st.write("lehetosegek")
+lehetosegek = st.radio("lehetosegek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
 
 ans = 0 
 def calculate():
@@ -25,7 +25,7 @@ def calculate():
 
   st.success(f"Answer = {ans}")
 
-if st.button("Kalkulalas"):
+if st.button("kalkulalas"):
     calculate()
 
 
