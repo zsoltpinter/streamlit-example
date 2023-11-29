@@ -6,18 +6,18 @@ st.write("---")
 szam1 = st.number_input(label = "K&H")
 szam2 = st.number_input(label = "OTP Nemzeti Bank")
 
-st.write("Lehetőségek")
-operation = t.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
+st.write("lehetosegek")
+lehetosegek = st.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
 
 ans = 0 
 def calculate():
-  if Lehetőségek == "Osszeadas":
+  if lehetosegek == "Osszeadas":
     ans = szam1 + szam2
-  elif Lehetőségek == "Kivonas":
+  elif lehetosegek == "Kivonas":
     ans = szam1 - szam2
-  elif Lehetőségek == "Szorzas":
+  elif lehetosegek == "Szorzas":
     ans = szam1 * szam2
-  elif Lehetőségek == "Osztas" and number2!=0:
+  elif lehetosegek == "Osztas" and number2!=0:
     ans = szam1 / szam2
   else:
     st.warning("Nem vehetsz fel semmit te barom!!44!4!!!!!4!")
