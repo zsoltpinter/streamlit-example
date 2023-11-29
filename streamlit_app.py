@@ -36,4 +36,5 @@ def calculate():
 if st.button("Calculate result"):
     calculate()
 
-st.slider("Ötvenhat", 1, 56)
+ads = st.slider("Ötvenhat", 1, 56)
+
