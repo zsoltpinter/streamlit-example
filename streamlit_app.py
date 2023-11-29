@@ -7,7 +7,7 @@ szam1 = st.number_input(label = "K&H")
 szam2 = st.number_input(label = "OTP Nemzeti Bank")
 
 st.write("Lehetőségek")
-st.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
+operation = t.radio("Lehetőségek :",("Osszeadas", "Kivonas", "Szorzas", "Osztas"))
 
 ans = 0 
 def calculate():
