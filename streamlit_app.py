@@ -37,4 +37,3 @@ if st.button("Calculate result"):
     calculate()
 
 ads = st.slider("hatvany", 1, 10)
-
