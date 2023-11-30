@@ -36,5 +36,5 @@ def calculate():
 if st.button("Calculate result"):
     calculate()
 
-ads = st.slider("hatvany", 1, 10)
+ads = st.slider("ketto hatvanyai", 1, 10)
 st.write(2**ads)
