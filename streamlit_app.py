@@ -39,4 +39,4 @@ if st.button("Calculate result"):
 ads = st.slider("ketto hatvanyai", 1, 10)
 st.write(2**ads)
 
-st.table(data=None)
+st.table(data=dict)
