@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Szamologep a Streamliten")
+st.title("Szamologep a Streamliten teszt")
  
 # creates a horizontal line
 st.write("---")
