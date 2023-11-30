@@ -1,6 +1,6 @@
 import streamlit as st
  
-st.title("Calculator App using Streamlit")
+st.title("Szamologep a Streamliten")
  
 # creates a horizontal line
 st.write("---")
