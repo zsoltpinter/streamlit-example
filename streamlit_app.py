@@ -1,5 +1,6 @@
 import streamlit as st
- 
+import pandas as pd
+
 st.title("Szamologep a Streamliten")
  
 # creates a horizontal line
@@ -38,3 +39,11 @@ if st.button("Calculate result"):
 
 ads = st.slider("ketto hatvanyai", 1, 10)
 st.write(2**ads)
+
+
+data = {"név': ['John', 'Jane', 'Bob', 'Alice'],
+        'Életkor' : [25, 30, 22, 28],
+        'Város' : ['New York', 'San Francisco', 'Los Angeles', 'Chicago']}
+
+df = pd.DataFrame(data)
+st.dataframe(dr)
